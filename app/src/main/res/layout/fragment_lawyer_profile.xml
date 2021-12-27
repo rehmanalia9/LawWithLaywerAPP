@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Lawyer.LawyerProfileFragment">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/lawyer"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/change_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Your Name"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/profile_image"
+        android:padding="10dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/change_specialization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Specialization"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/change_name"
+        android:padding="10dp"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/change_experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Experience"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/change_specialization"
+        android:padding="10dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/change_serving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Currently Serving"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/change_experience"
+        android:padding="10dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/doctorcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jazzcash Number"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/change_serving"
+        android:padding="10dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/update_profile_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorcontact"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buttons"
+        app:backgroundTint="@color/black"
+        android:padding="10dp"
+        android:text="Update Profile"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/doctorlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_profile_btn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buttons"
+        app:backgroundTint="@color/black"
+        android:padding="10dp"
+        android:text="Logout"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

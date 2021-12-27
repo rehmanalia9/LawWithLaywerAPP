@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/patientimag"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/client"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/patientname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Client Name"
+            android:textColor="#000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/profile_image"
+            android:layout_marginRight="10dp"
+            android:layout_centerHorizontal="true"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lawyer: "
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:layout_below="@+id/profile_image"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/doctorname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lawyer Name"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:layout_below="@+id/profile_image"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appointment No: "
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:layout_below="@+id/profile_image"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/appoinmentno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appointment No"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:layout_below="@+id/profile_image"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: "
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:layout_below="@+id/profile_image"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/appointmentdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appointment Date"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:layout_below="@+id/profile_image"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Slot: "
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:layout_below="@+id/profile_image"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/appointmentslot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appointment Slot"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:layout_below="@+id/profile_image"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"/>
+
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status: "
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:layout_below="@+id/profile_image"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/appointmentstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appointment Status"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:layout_below="@+id/profile_image"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"/>
+
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

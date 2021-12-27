@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lawyer.LawyerUpdateProfileActivity">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/user"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/profile_image_change_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Image"
+        android:textColor="#000"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/profile_image"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/change_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Your Name"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/profile_image_change_txt"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/change_specialization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Specialization"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/change_name"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/change_experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Experience"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/change_specialization"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/change_serving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Currently Serving"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/change_experience"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/doctorcont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jazzcash: "
+        android:layout_margin="15dp"
+        android:layout_below="@+id/change_serving"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/update_profile_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@+id/doctorcont"
+        android:background="@drawable/buttons"
+        app:backgroundTint="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+
+</RelativeLayout>

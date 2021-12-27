@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/drawable/details_edittext.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/drawable/ic_back_white.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/drawable/shape_rect01.xml" value="0.23055555555555557" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_admin_details_laws.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_admin_laws.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_appointment_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_book_appointment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_client.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_client_update_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_clinet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_clinet_signup_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_detail_laws.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_lawyer.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_lawyer_appointments_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_lawyer_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_lawyer_signup_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_lawyer_update_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_laywer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_resetpassword.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/activity_user_type.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/admin_lawyerlist_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/client_appointments_items.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/fragment_client_appointments.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/fragment_client_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/fragment_client_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/fragment_client_signup_details_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/fragment_lawyer_appointments.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/fragment_lawyer_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/fragment_lawyer_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/law_lists_detail.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/lawyer_appointments_items.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/GENIOUS/AndroidStudioProjects/LawWithLaywerAPP/app/src/main/res/layout/lawyer_items.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

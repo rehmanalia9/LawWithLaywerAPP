@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Lawyer.LawyerSignupDetailsActivity"
+    android:weightSum="9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:id="@+id/SignupDocterlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:orientation="vertical"
+            android:weightSum="8"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/doctorimageview"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:src="@drawable/photo"/>
+
+            <EditText
+                android:id="@+id/doctor_experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Experience"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:inputType="phone"
+                android:background="@drawable/input_design"/>
+            <EditText
+                android:id="@+id/doctor_pmdcno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Licence No."
+                android:inputType="phone"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:background="@drawable/input_design"/>
+
+            <EditText
+                android:id="@+id/doctor_specialization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Specialization(Case Specialist)"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:background="@drawable/input_design"/>
+
+            <EditText
+                android:id="@+id/doctor_currently_serving"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Currently Serving/Court"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:background="@drawable/input_design"/>
+
+            <EditText
+                android:id="@+id/doctor_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Jazzcash(03xx-xxxxxxx)"
+                android:inputType="text"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:background="@drawable/input_design"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Select Your Gender"
+                    android:layout_weight="1.5"
+                    android:textSize="16sp"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:background="@drawable/input_design"/>
+
+                <Spinner
+                    android:id="@+id/doctor_gender"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:autofillHints="Select Gender"
+                    android:layout_margin="10dp"
+                    android:scrollbarSize="20sp"
+                    android:spinnerMode="dropdown"
+                    android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+            </LinearLayout>
+
+            <!-- <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:weightSum="2"
+                 android:layout_weight="1">-->
+
+            <Button
+                android:id="@+id/doctor_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:background="@drawable/buttons"
+                app:backgroundTint="@color/black"
+                android:layout_weight="1"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

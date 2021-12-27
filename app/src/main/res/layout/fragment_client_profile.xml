@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Client.ClientProfileFragment">
+
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/client" />
+
+
+    <TextView
+        android:id="@+id/change_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Your Name"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/profile_image"
+        android:padding="20dp"
+        android:textSize="17sp"
+        android:background="@drawable/input_design"/>
+
+    <TextView
+        android:id="@+id/change_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Update Phone Number"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/change_name"
+        android:padding="20dp"
+        android:textSize="17sp"
+        android:background="@drawable/input_design"/>
+
+    <TextView
+        android:id="@+id/change_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/change_phone"
+        android:padding="20dp"
+        android:textSize="17sp"
+        android:background="@drawable/input_design"/>
+
+    <Button
+        android:id="@+id/update_profile_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@+id/change_age"
+        android:background="@drawable/buttons"
+        app:backgroundTint="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <!--<Button
+        android:id="@+id/nearbyhospitals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nearby Hospitals"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@+id/update_profile_btn"
+        android:background="@drawable/buttons"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        />-->
+
+    <Button
+        android:id="@+id/patientlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="#fff"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@+id/update_profile_btn"
+        android:background="@drawable/buttons"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:backgroundTint="@color/black"
+        />
+
+</RelativeLayout>
